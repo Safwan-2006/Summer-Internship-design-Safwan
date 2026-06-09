@@ -34,6 +34,7 @@ The testbench (`BCD_ADDER_tb.v`) evaluates the adder using the following sequenc
 | 200 ns | `1000` (8) | `1000` (8) | `0` | 16 | `0110` (6) | `1` | Yes (Carry out) |
 
 ### 📈 Waveform Output
-*(Add your simulation waveform screenshot here)* `![Simulation Waveform](link-to-your-image.png)`
+![Simulation Waveform](<img width="1543" height="658" alt="{414F1310-EE80-491F-9744-5ACAAC7E15AC}" src="https://github.com/user-attachments/assets/081715f6-a38f-4dd9-95d8-a9b3ebd9efd3" />
+)`
 
 
