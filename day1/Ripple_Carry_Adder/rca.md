@@ -27,15 +27,7 @@ The `RIPPLE_CARRY_ADDER_tb` applies a sequence of test vectors with a 100ns dela
 ## 📈 Simulation Waveform
 *(Upload your simulation result image to your repository and replace the placeholder link below)*
 
-![Simulation Waveform](link_to_your_simulation_result_image.png)
-> **Note:** The above waveform demonstrates the successful verification of the Ripple Carry Adder. The propagation delays and logical transitions match the expected truth table values.
+![Simulation Waveform]
+<img width="1552" height="690" alt="ripplecarryadder" src="https://github.com/user-attachments/assets/eaec8c3f-06ae-4f2b-8b5d-d465330b3215" />
 
-## 🚀 How to Run
-1. Create a new RTL project in your simulation tool (e.g., Vivado).
-2. Add `RIPPLE_CARRY_ADDER.v` and `fulladder.v` as design sources.
-3. Add `RIPPLE_CARRY_ADDER_tb.v` and `fulladder_tb.v` as simulation sources.
-4. Set `RIPPLE_CARRY_ADDER_tb` as the top module for simulation.
-5. Run the behavioral simulation and observe the TCL console for `$monitor` outputs and the waveform viewer for timing diagrams.
-
----
 **Author:** Mohammed Safwan M.
