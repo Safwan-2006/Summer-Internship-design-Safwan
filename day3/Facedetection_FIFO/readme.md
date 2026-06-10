@@ -35,34 +35,7 @@ The design demonstrates the use of:
 
 for efficient real-time image processing applications.
 
----
 
-## 🏗️ System Architecture
-
-```text
-         +----------------+
-s_in --->|  Face Module   |
-         |  (Producer)    |
-         +-------+--------+
-                 |
-                 | wr_en
-                 v
-         +----------------+
-         |      FIFO      |
-         |   8 x 8-bit    |
-         +-------+--------+
-                 |
-                 | rdenb
-                 v
-         +----------------+
-         | Output Face    |
-         | Module (FSM)   |
-         | (Consumer)     |
-         +-------+--------+
-                 |
-                 v
-               dout
-```
 
 ---
 
